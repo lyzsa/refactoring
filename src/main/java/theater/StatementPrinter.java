@@ -20,7 +20,6 @@ public class StatementPrinter {
      * Returns a formatted statement of the invoice associated with this printer.
      * @return the formatted statement
      * @throws RuntimeException if one of the play types is not known
-     * @noinspection checkstyle:CommentsIndentation
      */
     public String statement() {
         final StringBuilder result =
